@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html>
     <header>
-
+        <link href="css/style.css" rel="stylesheet">
     </header>
 
-    <body>
+    <body onload="onLoad()">
         <title>
             CuteTN says hello world!
         </title>
 
-        <p>
-            Hello world
-        </p>
+        <div class="div-logo" id="div-logo">
+            <img align=right src="images\ProfileIcon.png" style="height: 150px; float: left;"/>
+            
+            <h1 class="div-logo-name" id="div-logo-name">
+                   ⁮⁯⁮⁯Quản Tiến Nghĩa
+            </h1>
+            <h2 class="div-logo-nickname" id="div-logo-nickname">
+                /* CuteTN */
+            </h2>
+        </div>
+        
+        <!-- Dashhhh -->
+        <hr class="hr-full">
+
+        <h1 class="h1-welcome-title" id="h1-welcome-title"></h1>
+
+        <p class="p-brief-info"></p>
+
+        <!-- Script here -->
+        <script type="module" src="js/LoadContent.js"></script>
+        <script type="module" src="js/Main.js"></script>
     </body>
 </html>

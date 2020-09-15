@@ -1,0 +1,45 @@
+body 
+{
+    background-color: #e9ecff;
+}
+
+.hr-full
+{
+    height: 10;
+    color: gray;
+    background-color: gray
+}
+
+.div-logo
+{
+    background-color: #fff4d1; 
+    border-radius: 150px; 
+    height: 150px
+}
+
+.div-logo-name
+{
+    color: #FF69B4;
+    display: block; 
+    font-weight: bold; 
+    font-size: 50px; 
+    font-family: sans-serif; 
+    margin: 0 0 0 0
+}
+
+.div-logo-nickname
+{
+    color: #ffb6c0; 
+    display: inline; 
+    padding-top: auto; 
+    padding-bottom: auto; 
+    font-size: 30px; 
+    font-family: Lucida Console; 
+    font-weight: bold
+}
+
+.h1-welcome-title
+{
+    text-align: center;
+    font-family: Comic Sans MS
+}
