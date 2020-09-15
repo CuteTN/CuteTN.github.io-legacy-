@@ -1,32 +1,41 @@
-const EN = "EN";
-const VI = "VI";
+import { contentEN } from "./Content_EN.js"
 
-const WelcomePrefix = "Welcome";
-const BriefInfoPrefix = "BriefInfo";
+export const language =
+{
+    EN: "EN",
+    VI: "VI"
+}
 
-function loadContentElement(elementID, filePath)
+export const content =
+{
+    "EN": contentEN,
+    "VI": null,
+}
+
+
+export function loadAllContent(language)
+{
+    Object.keys(content[language]).map
+    (
+        function (id, index) 
+        {
+            var element = document.getElementById(id);
+            element.innerHTML = content[language][id]
+        }
+    );
+}
+
+/*
+async function loadContentElement(elementID, filePath)
 {
     var element = document.getElementById(elementID);
-    var fr = new FileReader();
-    var content = fr.readAsText(filePath, "utf-8");
-    console.log(content);
-    element.innerHTML = content;
-}
+    var txtFile = await fetch(filePath); // fetch txt file
+    var text = await txtFile.text(); // transform stream to txt
+    element.innerHTML = text;
+} 
 
 function getContentFilePath(prefix, language)
 {
-    return "../txt/" + prefix + "_" + language + ".txt";
+    return `./txt/${prefix}_${language}.txt`;
 }
-
-function loadAllContent(language)
-{
-    loadContentElement("h1-welcome-title", getContentFilePath(WelcomePrefix, language));
-    loadContentElement("")
-}
-
-export
-{
-    EN,
-    VI,
-    loadAllContent,
-}
+*/

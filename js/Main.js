@@ -1,11 +1,8 @@
-import { loadAllContent, EN, VI } from "./LoadContent.js"
+import {loadAllContent} from "./LoadContent.js"
 
-function onLoad()
+export function onLoad()
 {
-    loadAllContent(EN);
+    loadAllContent("EN");
 }
 
-export
-{
-    onLoad
-}
+window.onload = onLoad;

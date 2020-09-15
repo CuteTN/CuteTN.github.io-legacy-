@@ -43,3 +43,22 @@ body
     text-align: center;
     font-family: Comic Sans MS
 }
+
+.p-friendly
+{
+    font-family: Comic Sans MS; 
+}
+
+.h2-friendly-even
+{
+    background: linear-gradient(90deg, #ff9eb5, #e9ecff); 
+    border-radius: 20px; 
+    font-family: Comic Sans MS
+}
+
+.h2-friendly-odd
+{
+    background: linear-gradient(90deg, #ffb8c9, #e9ecff); 
+    border-radius: 20px; 
+    font-family: Comic Sans MS
+}
