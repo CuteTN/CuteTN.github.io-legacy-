@@ -10,8 +10,8 @@ export const contentEN =
 
     "h2-skill": "🐹 Skill:",
     "p-skill": 
-         "🔥 <strong>Problem solving:</strong> Competitive programming, Data structure and Algorithms, Mathematics,...<br>"	
-        +"🔥 <strong>Technologies:</strong> C# (.NET, Unity), C++, Python 3, Java, JavaScript, HTML, CSS, Clojure, Database (SQL server), Testing (Nunit - .NET),...",
+         "<p>🔥 <strong>Problem solving:</strong> Competitive programming, Data structure and Algorithms, Mathematics,...</p>"	
+        +"<p>🔥 <strong>Technologies:</strong> C# (.NET, Unity), C++, Python 3, Java, JavaScript, HTML, CSS, Clojure, Database (SQL server), Testing (Nunit - .NET),...</p>",
     
     "h2-education": "🐼 Education:",
     "p-education-high-school": "👉 2015 - 2018: I spent a lot of time improve my problem solving skill at <strong>Gia Định highschool</strong>. I was in <em>Computer Science Specialized Class</em>, so I had the opportunity to learn about IT, CS as well as my career orientation.",
@@ -30,7 +30,7 @@ export const contentEN =
 
     "h2-more": "💌 More more more:",
     "p-more":
-         "💗 I&#39;m a <strong>Ganders</strong>!!! YES, I&#39;m a real fan of <a href='https://www.facebook.com/hoangyenfan/'>Hoàng Yến Chibi</a>! Every color of my heart is for her! ❤️🧡💛💚💙💜🖤🤍🤎<br>"
-        +"💗 For entertainment, I only play <strong>Geometry Dash</strong>. I don&#39;t know why but I love this game and have played it for 5 years! If you are a fan of this game, too, then hey, we can be friend! My in-game nickname is, you know, <strong>CuteTN</strong>! 🤪",
+         "<p>💗 I&#39;m a <strong>Ganders</strong>!!! YES, I&#39;m a real fan of <a href='https://www.facebook.com/hoangyenfan/'>Hoàng Yến Chibi</a>! Every color of my heart is for her! ❤️🧡💛💚💙💜🖤🤍🤎</p>"
+        +"<p>💗 For entertainment, I only play <strong>Geometry Dash</strong>. I don&#39;t know why but I love this game and have played it for 5 years! If you are a fan of this game, too, then hey, we can be friend! My in-game nickname is, you know, <strong>CuteTN</strong>! 🤪</p>",
 
 }
