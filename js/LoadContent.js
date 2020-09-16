@@ -13,7 +13,7 @@ export const content =
 }
 
 
-export function loadAllContent(language)
+export function loadHomeContent(language)
 {
     Object.keys(content[language]).map
     (

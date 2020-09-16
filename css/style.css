@@ -6,6 +6,31 @@ body
     margin-right: auto;
 }
 
+a:visited
+{
+    color: #ff2a94
+}
+
+a:not(visited)
+{
+    color: #ff82c0
+}
+
+.div-home
+{
+    display: block;
+}
+
+.div-blogs
+{
+    display: none;
+}
+
+.div-playgrounds
+{
+    display: none;
+}
+
 .hr-full
 {
     height: 10;
@@ -20,7 +45,7 @@ body
     height: 150px
 }
 
-.div-logo-name
+.div-logo-title
 {
     color: #FF69B4;
     display: block; 
@@ -30,7 +55,7 @@ body
     margin: 0 0 0 0
 }
 
-.div-logo-nickname
+.div-logo-subtitle
 {
     color: #ffb6c0; 
     display: inline; 
@@ -64,4 +89,58 @@ body
     background: linear-gradient(90deg, #ffb8c9, #e9ecff); 
     border-radius: 20px; 
     font-family: Comic Sans MS
+}
+
+.div-menubar
+{
+    background-color: #ff1d8e;
+    border-radius: 25px;
+    text-align: center;
+} 
+
+.p-menubar-button
+{
+    display: inline;
+    background-color: #ff1d8e;
+    color: white;
+    font-family: Comic Sans MS;
+    padding: 0 20px 0 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@keyframes highlight-p-menubar-button-onhover
+{
+    from
+    {
+        background-color: #ff1d8e;
+    }
+    to
+    { 
+        background-color: #d00068;
+    }
+}
+
+@keyframes highlight-p-menubar-button-onover
+{
+    from
+    {
+        background-color: #d00068;
+    }
+    to
+    { 
+        background-color: #ff1d8e;
+    }
+}
+
+
+.p-menubar-button:hover
+{
+    animation: highlight-p-menubar-button-onhover 1s forwards;
+}
+
+.p-menubar-button:not(:hover)
+{
+    animation: highlight-p-menubar-button-onover 0.3s forwards;
 }
