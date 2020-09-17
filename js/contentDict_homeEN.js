@@ -1,4 +1,4 @@
-export const contentVI =
+export const contentDict_homeEN =
 {
     "h1-welcome-title": "Welcome to my Github profile!",
     

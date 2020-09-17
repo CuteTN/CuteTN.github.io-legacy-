@@ -11,7 +11,7 @@ a:visited
     color: #ff2a94
 }
 
-a:not(visited)
+a:not(:visited)
 {
     color: #ff82c0
 }
@@ -51,7 +51,7 @@ a:not(visited)
     display: block; 
     font-weight: bold; 
     font-size: 50px; 
-    font-family: sans-serif; 
+    font-family: Comic Sans MS;
     margin: 0 0 0 0
 }
 
@@ -62,7 +62,7 @@ a:not(visited)
     padding-top: auto; 
     padding-bottom: auto; 
     font-size: 30px; 
-    font-family: Lucida Console; 
+    font-family: Courier New;
     font-weight: bold
 }
 
@@ -144,3 +144,45 @@ a:not(visited)
 {
     animation: highlight-p-menubar-button-onover 0.3s forwards;
 }
+
+.img-language-setting-button
+{
+    padding: 0 5px 0 5px;
+    float: right;
+    cursor: pointer;
+}
+
+@keyframes highlight-img-language-setting-button-onhover
+{
+    from
+    {
+        height: 32px;
+    }
+    to
+    {
+        height: 50px;
+    }
+}
+
+@keyframes highlight-img-language-setting-button-onover
+{
+    from
+    {
+        height: 50px;
+    }
+    to
+    {
+        height: 32px;
+    }
+}
+
+.img-language-setting-button:hover
+{
+    animation: highlight-img-language-setting-button-onhover 0.5s forwards;
+}
+
+.img-language-setting-button:not(:hover)
+{
+    animation: highlight-img-language-setting-button-onover 0.2s forwards;
+}
+
