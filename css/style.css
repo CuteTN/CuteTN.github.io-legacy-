@@ -75,6 +75,7 @@ a:not(:visited)
 .p-friendly
 {
     font-family: Comic Sans MS; 
+    text-align: justify;
 }
 
 .h2-friendly-even
